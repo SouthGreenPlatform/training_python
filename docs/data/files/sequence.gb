@@ -1,0 +1,892 @@
+LOCUS       NM_003140                828 bp    mRNA    linear   PRI 03-JUN-2022
+DEFINITION  Homo sapiens sex determining region Y (SRY), mRNA.
+ACCESSION   NM_003140
+VERSION     NM_003140.3
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 828)
+  AUTHORS   Kherouatou-Chaoui N, Chellat-Rezgoune D, Rezgoune ML, Mc Elreavey K,
+            Touabti LS, Abadi N and Satta D.
+  TITLE     SRY and NR5A1 gene mutation in Algerian children and adolescents
+            with DSD and testicular dysgenesis
+  JOURNAL   Afr Health Sci 21 (3), 1491-1497 (2021)
+   PUBMED   35222615
+  REMARK    GeneRIF: SRY and NR5A1 gene mutation in Algerian children and
+            adolescents with DSD and testicular dysgenesis.
+REFERENCE   2  (bases 1 to 828)
+  AUTHORS   Calvo SE, Pagliarini DJ and Mootha VK.
+  TITLE     Upstream open reading frames cause widespread reduction of protein
+            expression and are polymorphic among humans
+  JOURNAL   Proc Natl Acad Sci U S A 106 (18), 7507-7512 (2009)
+   PUBMED   19372376
+  REMARK    GeneRIF: Includes the study of a disease-related upstream ORF in
+            this gene, and shows that it functions to reduce protein levels by
+            100%.
+REFERENCE   3  (bases 1 to 828)
+  AUTHORS   Sekido R and Lovell-Badge R.
+  TITLE     Sex determination and SRY: down to a wink and a nudge?
+  JOURNAL   Trends Genet 25 (1), 19-29 (2009)
+   PUBMED   19027189
+  REMARK    Review article
+REFERENCE   4  (bases 1 to 828)
+  AUTHORS   Clepet C, Schafer AJ, Sinclair AH, Palmer MS, Lovell-Badge R and
+            Goodfellow PN.
+  TITLE     The human SRY transcript
+  JOURNAL   Hum Mol Genet 2 (12), 2007-2012 (1993)
+   PUBMED   8111368
+REFERENCE   5  (bases 1 to 828)
+  AUTHORS   Behlke MA, Bogan JS, Beer-Romero P and Page DC.
+  TITLE     Evidence that the SRY protein is encoded by a single exon on the
+            human Y chromosome
+  JOURNAL   Genomics 17 (3), 736-739 (1993)
+   PUBMED   8244390
+REFERENCE   6  (bases 1 to 828)
+  AUTHORS   Su H and Lau YF.
+  TITLE     Identification of the transcriptional unit, structural organization,
+            and promoter sequence of the human sex-determining region Y (SRY)
+            gene, using a reverse genetic approach
+  JOURNAL   Am J Hum Genet 52 (1), 24-38 (1993)
+   PUBMED   8434602
+REFERENCE   7  (bases 1 to 828)
+  AUTHORS   Mohnach,L., Fechner,P.Y. and Keegan,C.E.
+  TITLE     Nonsyndromic Disorders of Testicular Development
+  JOURNAL   (in) Adam MP, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH, Gripp KW
+            and Amemiya A (Eds.); GENEREVIEWS((R)); (1993)
+   PUBMED   20301714
+REFERENCE   8  (bases 1 to 828)
+  AUTHORS   Delot,E.C. and Vilain,E.J.
+  TITLE     Nonsyndromic 46,XX Testicular Disorders/Differences of Sex
+            Development
+  JOURNAL   (in) Adam MP, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH, Gripp KW
+            and Amemiya A (Eds.); GENEREVIEWS((R)); (1993)
+   PUBMED   20301589
+REFERENCE   9  (bases 1 to 828)
+  AUTHORS   Hawkins JR, Taylor A, Berta P, Levilliers J, Van der Auwera B and
+            Goodfellow PN.
+  TITLE     Mutational analysis of SRY: nonsense and missense mutations in XY
+            sex reversal
+  JOURNAL   Hum Genet 88 (4), 471-474 (1992)
+   PUBMED   1339396
+REFERENCE   10  (bases 1 to 828)
+  AUTHORS   Sinclair AH, Berta P, Palmer MS, Hawkins JR, Griffiths BL, Smith MJ,
+            Foster JW, Frischauf AM, Lovell-Badge R and Goodfellow PN.
+  TITLE     A gene from the human sex-determining region encodes a protein with
+            homology to a conserved DNA-binding motif
+  JOURNAL   Nature 346 (6281), 240-244 (1990)
+   PUBMED   1695712
+COMMENT     ##Evidence-Data-START##
+            Transcript is intronless :: L10101.1, BC074923.2 [ECO:0000345]
+            ##Evidence-Data-END##
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match       :: ENST00000383070.2/ ENSP00000372547.1
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+            REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from L10101.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On May 17, 2019 this sequence version replaced NM_003140.2.
+            Summary: This intronless gene encodes a transcription factor that
+            is a member of the high mobility group (HMG)-box family of
+            DNA-binding proteins. This protein is the testis-determining factor
+            (TDF), which initiates male sex determination. Mutations in this
+            gene give rise to XY females with gonadal dysgenesis (Swyer
+            syndrome); translocation of part of the Y chromosome containing
+            this gene to the X chromosome causes XX male syndrome. [provided by
+            RefSeq, Jul 2008].
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..828
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /map="Yp11.2"
+     gene            1..828
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="sex determining region Y"
+                     /db_xref="GeneID:6736"
+                     /db_xref="HGNC:HGNC:11311"
+                     /db_xref="MIM:480000"
+     exon            1..828
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    20..22
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="upstream in-frame stop codon"
+     CDS             80..694
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="essential protein for sex determination in human
+                     males; sex-determining region on Y; testis-determining
+                     factor on Y; truncated sex-determining region Y protein"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="NP_003131.1"
+                     /db_xref="CCDS:CCDS14772.1"
+                     /db_xref="GeneID:6736"
+                     /db_xref="HGNC:HGNC:11311"
+                     /db_xref="MIM:480000"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYKYRPRRKAKMLPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+     misc_feature    254..487
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Sufficient for interaction with KPNB1.
+                     /evidence=ECO:0000269|PubMed:15297880"
+     misc_feature    260..310
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Required for nuclear localization.
+                     /evidence=ECO:0000269|PubMed:12764225,
+                     ECO:0000269|PubMed:15746192"
+     misc_feature    398..496
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Sufficient for interaction with EP300.
+                     /evidence=ECO:0000269|PubMed:15297880"
+     misc_feature    467..487
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Required for nuclear localization.
+                     /evidence=ECO:0000269|PubMed:15297880"
+     misc_feature    485..487
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:15297880; propagated from
+                     UniProtKB/Swiss-Prot (Q05066.1); acetylation site"
+     misc_feature    491..544
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Necessary for interaction with ZNF208 isoform
+                     KRAB-O. /evidence=ECO:0000269|PubMed:15469996"
+     misc_feature    602..691
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    671..691
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Necessary for interaction with SLC9A3R2.
+                     /evidence=ECO:0000269|PubMed:9054412"
+     regulatory      807..812
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="hexamer: AATAAA"
+     polyA_site      828
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="major polyA site"
+ORIGIN
+        1 agaagtgagt tttggatagt aaaataagtt tcgaactctg gcacctttca attttgtcgc
+       61 actctccttg tttttgacaa tgcaatcata tgcttctgct atgttaagcg tattcaacag
+      121 cgatgattac agtccagctg tgcaagagaa tattcccgct ctccggagaa gctcttcctt
+      181 cctttgcact gaaagctgta actctaagta tcagtgtgaa acgggagaaa acagtaaagg
+      241 caacgtccag gatagagtga agcgacccat gaacgcattc atcgtgtggt ctcgcgatca
+      301 gaggcgcaag atggctctag agaatcccag aatgcgaaac tcagagatca gcaagcagct
+      361 gggataccag tggaaaatgc ttactgaagc cgaaaaatgg ccattcttcc aggaggcaca
+      421 gaaattacag gccatgcaca gagagaaata cccgaattat aagtatcgac ctcgtcggaa
+      481 ggcgaagatg ctgccgaaga attgcagttt gcttcccgca gatcccgctt cggtactctg
+      541 cagcgaagtg caactggaca acaggttgta cagggatgac tgtacgaaag ccacacactc
+      601 aagaatggag caccagctag gccacttacc gcccatcaac gcagccagct caccgcagca
+      661 acgggaccgc tacagccact ggacaaagct gtaggacaat cgggtaacat tggctacaaa
+      721 gacctaccta gatgctcctt tttacgataa cttacagccc tcactttctt atgtttagtt
+      781 tcaatattgt tttcttttct ctggctaata aaggccttat tcatttca
+//
+LOCUS       NG_011751               7897 bp    DNA     linear   PRI 31-JAN-2022
+DEFINITION  Homo sapiens sex determining region Y (SRY), RefSeqGene on
+            chromosome Y.
+ACCESSION   NG_011751
+VERSION     NG_011751.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 7897)
+  AUTHORS   Calvo SE, Pagliarini DJ and Mootha VK.
+  TITLE     Upstream open reading frames cause widespread reduction of protein
+            expression and are polymorphic among humans
+  JOURNAL   Proc Natl Acad Sci U S A 106 (18), 7507-7512 (2009)
+   PUBMED   19372376
+REFERENCE   2  (bases 1 to 7897)
+  AUTHORS   Sekido R and Lovell-Badge R.
+  TITLE     Sex determination and SRY: down to a wink and a nudge?
+  JOURNAL   Trends Genet 25 (1), 19-29 (2009)
+   PUBMED   19027189
+  REMARK    Review article
+REFERENCE   3  (bases 1 to 7897)
+  AUTHORS   Clepet C, Schafer AJ, Sinclair AH, Palmer MS, Lovell-Badge R and
+            Goodfellow PN.
+  TITLE     The human SRY transcript
+  JOURNAL   Hum Mol Genet 2 (12), 2007-2012 (1993)
+   PUBMED   8111368
+REFERENCE   4  (bases 1 to 7897)
+  AUTHORS   Behlke MA, Bogan JS, Beer-Romero P and Page DC.
+  TITLE     Evidence that the SRY protein is encoded by a single exon on the
+            human Y chromosome
+  JOURNAL   Genomics 17 (3), 736-739 (1993)
+   PUBMED   8244390
+REFERENCE   5  (bases 1 to 7897)
+  AUTHORS   Su H and Lau YF.
+  TITLE     Identification of the transcriptional unit, structural organization,
+            and promoter sequence of the human sex-determining region Y (SRY)
+            gene, using a reverse genetic approach
+  JOURNAL   Am J Hum Genet 52 (1), 24-38 (1993)
+   PUBMED   8434602
+REFERENCE   6  (bases 1 to 7897)
+  AUTHORS   Mohnach,L., Fechner,P.Y. and Keegan,C.E.
+  TITLE     Nonsyndromic Disorders of Testicular Development
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Gripp KW,
+            Mirzaa GM and Amemiya A (Eds.); GENEREVIEWS((R)); (1993)
+   PUBMED   20301714
+REFERENCE   7  (bases 1 to 7897)
+  AUTHORS   Delot,E.C. and Vilain,E.J.
+  TITLE     Nonsyndromic 46,XX Testicular Disorders of Sex Development
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Gripp KW,
+            Mirzaa GM and Amemiya A (Eds.); GENEREVIEWS((R)); (1993)
+   PUBMED   20301589
+REFERENCE   8  (bases 1 to 7897)
+  AUTHORS   Sinclair AH, Berta P, Palmer MS, Hawkins JR, Griffiths BL, Smith MJ,
+            Foster JW, Frischauf AM, Lovell-Badge R and Goodfellow PN.
+  TITLE     A gene from the human sex-determining region encodes a protein with
+            homology to a conserved DNA-binding motif
+  JOURNAL   Nature 346 (6281), 240-244 (1990)
+   PUBMED   1695712
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC006040.3.
+            This sequence is a reference standard in the RefSeqGene project.
+            Summary: This intronless gene encodes a transcription factor that
+            is a member of the high mobility group (HMG)-box family of
+            DNA-binding proteins. This protein is the testis-determining factor
+            (TDF), which initiates male sex determination. Mutations in this
+            gene give rise to XY females with gonadal dysgenesis (Swyer
+            syndrome); translocation of part of the Y chromosome containing
+            this gene to the X chromosome causes XX male syndrome. [provided by
+            RefSeq, Jul 2008].
+FEATURES             Location/Qualifiers
+     source          1..7897
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /map="Yp11.2"
+     gene            complement(2313..2946)
+                     /gene="RNASEH2CP1"
+                     /gene_synonym="AYP1p1"
+                     /note="ribonuclease H2 subunit C pseudogene 1"
+                     /pseudo=""
+                     /db_xref="GeneID:386608"
+                     /db_xref="HGNC:HGNC:24117"
+     gene            5070..5897
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="sex determining region Y"
+                     /db_xref="GeneID:6736"
+                     /db_xref="HGNC:HGNC:11311"
+                     /db_xref="MIM:480000"
+     mRNA            5070..5897
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /product="sex determining region Y"
+                     /transcript_id="NM_003140.3"
+                     /db_xref="GeneID:6736"
+                     /db_xref="HGNC:HGNC:11311"
+                     /db_xref="MIM:480000"
+     exon            5070..5897
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=1
+     CDS             5149..5763
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="essential protein for sex determination in human
+                     males; sex-determining region on Y; testis-determining
+                     factor on Y; truncated sex-determining region Y protein"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="NP_003131.1"
+                     /db_xref="CCDS:CCDS14772.1"
+                     /db_xref="GeneID:6736"
+                     /db_xref="HGNC:HGNC:11311"
+                     /db_xref="MIM:480000"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYKYRPRRKAKMLPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+     misc_feature    5323..5556
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Sufficient for interaction with KPNB1.
+                     /evidence=ECO:0000269|PubMed:15297880"
+     misc_feature    5329..5379
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Required for nuclear localization.
+                     /evidence=ECO:0000269|PubMed:12764225,
+                     ECO:0000269|PubMed:15746192"
+     misc_feature    5467..5565
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Sufficient for interaction with EP300.
+                     /evidence=ECO:0000269|PubMed:15297880"
+     misc_feature    5536..5556
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Required for nuclear localization.
+                     /evidence=ECO:0000269|PubMed:15297880"
+     misc_feature    5554..5556
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:15297880; propagated from
+                     UniProtKB/Swiss-Prot (Q05066.1); acetylation site"
+     misc_feature    5560..5613
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Necessary for interaction with ZNF208 isoform
+                     KRAB-O. /evidence=ECO:0000269|PubMed:15469996"
+     misc_feature    5671..5760
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5740..5760
+                     /gene="SRY"
+                     /gene_synonym="SRXX1; SRXY1; TDF; TDY"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q05066.1);
+                     Region: Necessary for interaction with SLC9A3R2.
+                     /evidence=ECO:0000269|PubMed:9054412"
+ORIGIN
+        1 tgaccttcat tttatggaga gaaacaagct ataacatgta gtatctaagc tgattagaag
+       61 aactaaaaag agaagctcat acttgtgcat cagaaggtaa atgaaagagt gaagttacct
+      121 ctttgtttta aggaagaaag gaaaattgtg gatgtcatct gttttctgtt tacatatttc
+      181 aggcatggat agccacaatg tgattttaag acggttagtt acaactgatt tgaaaaaaaa
+      241 aaaaaatgct tcactctatg agaaatttct tcccaagtat gaaaccttgt ttttacaggc
+      301 aatttcctat actttgaaaa aatcaaaata ataaagtaaa agaaaaataa ttcaggtgaa
+      361 gttagagaaa aaaacaggca gcattatttt aaagttgtaa actattttgt ttacttatag
+      421 tttaatttac atgtagtaga tatgcatttg taaggttctt cggctcaggt aggagatcat
+      481 tctatttccc actgcaccct acttcatcct cccactggca aataattaga ttatccctgg
+      541 gaaaaaaaga tgccagtaaa attgatcatg tttaaatgca tcagttgcta ggtgatttat
+      601 ctgattaagt cttgaaacag tagaacctag caattaaagt gagcattaac ttctacctac
+      661 caaatcagaa gactattcta actttttgag aattagatgt tgaaaatatg gcccatgaat
+      721 ttagcatggt taaaataaaa aacatgcaaa caaaacaaac ccaacatctt gaaaggacat
+      781 ttgactctaa agtcccaaaa ataatcacaa gtctaaaaat cctaagttta gtgttactct
+      841 attacacctt tttatttgta agtgtccttt cacaaaagtt ttaaattttg ctcttgtgca
+      901 ttttatttac cttttctttt gttgtttgtg tctttggtga cctgccaacc attagacttc
+      961 aaaaaacagc ctatagccaa gctgcaggat aaatgaacac ataagttgac ttagaatagt
+     1021 caactctgtc tagtatacaa tttatggggg atggtttatg accacatata tttctacttt
+     1081 gatgggaata tcttgagata aaattagaga gaatgagtgg agtaatattc acaacatttt
+     1141 tgctgcattc atccctgaat ttgaagaaat accaaagtac atcttgtgag gagaaaaaat
+     1201 aaataaattc atataaaatg ttgtgggttt tattctttat gcagtggtaa actgtgtttg
+     1261 catacaccat agcaattaaa ttagggctac aaagggtatt taactaatga gcataaaata
+     1321 ccttaatgta cctcaaatgc aattaattgc attggaccaa tctaagttac tattcttcag
+     1381 ttttcatttt tatttcatta ttcatttcat ttttattctg atataaaaat gaaccaggat
+     1441 ctgtgtgaaa ttatttgaat ctaatgtctt tgaacatttt tcttaccata ccttaagatt
+     1501 aaaaaaacaa aaaaaaatcc cttagtttgg caacttttgc tgttggttaa gcccgtttgg
+     1561 atttaacatt gacaggacca gctaacttcc taccagttaa cattgcttgt gggcctgact
+     1621 gatgtaaaaa tatttaacaa ctgttgagaa atagtcatca gtgaatctta aaggtcgtac
+     1681 tcatataaaa caatatagcg ctttaacttt ttatttactg aatttgagag aaaggaatag
+     1741 tgttccagaa actgggatca ctcaggcgct cagggaagca tatggttagc tgatgatata
+     1801 aaggcccaat attggaagaa ctgttaatgt agtcccctgg agacagtgag tgaattatta
+     1861 gccctggttg agagattaaa atgtgttgat atgatattat agaggcaaat ttaatgctct
+     1921 cggcctcccc ctgcatcctt atttttgcat gtaggtttat tactttacag gagaaccaac
+     1981 acttttttcc tttttttttt tttaagtggt tgagtttgtt tttctgaacc cagaggcatg
+     2041 tttacacatt tcattaattt aagtaccaga gaagtatact gagaacctac tacatgtcac
+     2101 acactatcct aggagctgta gacagaaaaa taataaaatc tcgtgtcttt atttaaattt
+     2161 tgttgactgc cacccccaag tgagtctcct cacacacccc gtcctgtaat atatgcatct
+     2221 gggaggtctt ttttgccttc ttaaaaacat atagatggtt ggacatatgt atataagaat
+     2281 ataaaattca ccactttatc ttttgtgaat gtgtgctgtg aagaactcct ttactggggt
+     2341 gatggaacca gtggctacaa agtaaggagc tggtttactg ctgtaaaggg ttcgcggctt
+     2401 tgaatttcaa gctctggttc tgtgtccttg ggcacctgcg cgtgaatcgt tgccgcgagg
+     2461 ctgggccaag ttaaggcccc acgcagtttg gcttccgggc caaggaagcc ccacagggtg
+     2521 ccccacaggg tgaagcccca tgccctacag ggtgaagcgg ctgaagctgg tagtggttcc
+     2581 gaggaagcgg tcaaagtccc gctccagagg ttcctcttct tggttgtcac tcccggaacc
+     2641 ccgccagggg tctggcttcc ccatcgacac ctcctcctgt tcagtcacca tcacgtatcc
+     2701 cacgaggccg gacggcactg ccacctcgtc gccccgtaga ctgcggcccc gaaactacac
+     2761 ttaagagtcc ctcggggccc tggcggatgg caggcgtgat gaagcgccac accgtggtgg
+     2821 gccgcagggt atcaggtgta gtgtggcggg ggcggcgtcc tgcagtgtgg ctgggcgcaa
+     2881 ctggacgctg tacctctcca tagccgccta gtcgccgctc tccatcctcg ctcctgtgcg
+     2941 acgccacttt atccctctta aactggacga ttcagtagta ccggggaacg aaggcaacaa
+     3001 gacctaacca tagcaacaac attttgtttt tgaaacccat cttgcaactg cctgactgca
+     3061 aaatgtactt gcagattctg cagacaaaaa ttgctgccac ttattaaaag acttcatagt
+     3121 gaaaactgac tttttaccca aaccactgat tcaaggactt ttgcgtagaa actcatgaac
+     3181 tgttaagata acccttcatt accaattaag ataataggtt gtaagtaacc taatgagtac
+     3241 caactttctc ttatttcctt taaaaactgt ctctcaaaac agccggtcac gacacaatgt
+     3301 cagatgcttc tggaatctgt ttctctaatt acagttctaa aactgccaac aaactcctta
+     3361 tttggacttc agtttctctg actctttggt tcaccatgtt gtgcagccat cacctctctc
+     3421 tagttccaga gcatatttta tcaatcctca aaagaaaccg tgcatccacc agcagtaact
+     3481 ccccacaacc tctttcatcc agtccttagc aaccattaat ctggttttag tctctattca
+     3541 tttgcctttc ctggatattt catatacatg ggatcattca gtatctggcc tcttgtatct
+     3601 gactttttca cacagtgtaa cattttcaag gttcacctat gtggtgcctt gtgtcatttt
+     3661 ttgctatttt catgtcaggt tttgaaatgg tatgtttttt ctcatcttgt aagggatttc
+     3721 ctgttgtaga aaatctgttt ctgtgtatga ctgcaattta accattttat ttgctatcca
+     3781 gatacatgtt ttaacttgag ccaactatat ttccactttg tataatgaat actaaatttt
+     3841 gtatcttaga tactaaactt tagtagataa ctaggataca aattacagtt ttcatatttt
+     3901 tcttttcatg gaatataatt ttttaaagtt tctgatatta attcattata acatttactg
+     3961 gacaaaccaa ccacatttgg ttctatgaac tcttttcata ttttacggga tttttatttt
+     4021 gttgtcttag gaattgtggc atcattcagt tttgctgaga gtttattttt attaataggt
+     4081 tctgtgtact atgcaacctg tagttgttac tcctgttttg caaatatggc attaaaacat
+     4141 tggtgagtgg ggggactttc ctcccatttt atttcagcaa agaaatcttg tcatttctct
+     4201 tcagacttta agatttattg aggagagtta ttcacttgtt tagtctggta aactgtgacc
+     4261 tttaaatttt gaaggaggtt gaactaaaag gtgaaatatg ataaattgat ggctctattt
+     4321 gttgtgaatg gaaatttaat ttagacttgt aaaagattgt tttttaaatt gctaattgtg
+     4381 tgacagtgaa gagaatgact tcaaaatatc ccactataca atctgcaaag aaaagaattg
+     4441 tgtccccttt ttagtgtagc ttaacacttc actgaaactg ttttgagttc ttaggtcata
+     4501 tttttttttc tctaaacgaa acaattactt ttctaaaagt caaatgttag ccatcctaga
+     4561 agttgggcat aaaatacttg taagtatatg ctaatattct gatacttaat gcctgtgaaa
+     4621 aatgtgtata gaattttcaa tttttaaata gaagtgaaga aaaagcgata ataattacta
+     4681 taaattcaat atgcagttat gtatgtatgt gtgtggttaa gacaattagg ttctcattaa
+     4741 gctttgtttt tttaaagata acatacacat atattgataa tgataaacaa ttcatatagc
+     4801 tttttgtgtc ctctcgtttt gtgacataaa aggtcaatga aaaaattggc gattaagtca
+     4861 aattcgcatt tttcaggaca gcagtagagc agtcagggag gcagatcagc agggcaagta
+     4921 gtcaacgtta ctgaattacc atgttttgct tgagaatgaa tacattgtca gggtactagg
+     4981 gggtaggctg gttgggcggg gttgaggggg tgttgagggc ggagaaatgc aagtttcatt
+     5041 acaaaagtta acgtaacaaa gaatctggta gaagtgagtt ttggatagta aaataagttt
+     5101 cgaactctgg cacctttcaa ttttgtcgca ctctccttgt ttttgacaat gcaatcatat
+     5161 gcttctgcta tgttaagcgt attcaacagc gatgattaca gtccagctgt gcaagagaat
+     5221 attcccgctc tccggagaag ctcttccttc ctttgcactg aaagctgtaa ctctaagtat
+     5281 cagtgtgaaa cgggagaaaa cagtaaaggc aacgtccagg atagagtgaa gcgacccatg
+     5341 aacgcattca tcgtgtggtc tcgcgatcag aggcgcaaga tggctctaga gaatcccaga
+     5401 atgcgaaact cagagatcag caagcagctg ggataccagt ggaaaatgct tactgaagcc
+     5461 gaaaaatggc cattcttcca ggaggcacag aaattacagg ccatgcacag agagaaatac
+     5521 ccgaattata agtatcgacc tcgtcggaag gcgaagatgc tgccgaagaa ttgcagtttg
+     5581 cttcccgcag atcccgcttc ggtactctgc agcgaagtgc aactggacaa caggttgtac
+     5641 agggatgact gtacgaaagc cacacactca agaatggagc accagctagg ccacttaccg
+     5701 cccatcaacg cagccagctc accgcagcaa cgggaccgct acagccactg gacaaagctg
+     5761 taggacaatc gggtaacatt ggctacaaag acctacctag atgctccttt ttacgataac
+     5821 ttacagccct cactttctta tgtttagttt caatattgtt ttcttttctc tggctaataa
+     5881 aggccttatt catttcagtt ttactggtat ttcattttaa acttaatttc aagacaagtt
+     5941 gtgtcaacac gattaacatg caaagaaata agacatccag aagtgagcct gcctatgttt
+     6001 gtggccgtca gagtactaac ttgatacaaa cggacactgt ggcttacttt aaatgctcta
+     6061 atgagaaaca cacttgaaaa ttgtaccaaa aaaaatcaca cttctatatg cagcgtgtta
+     6121 agcagtcctc tctagaccgt gtattcattg gtctttcagc tactttgtac gtgtctataa
+     6181 attgcaggta actaaggaat ggatatgtaa gcaggatcaa acttgtttct ttctctcccc
+     6241 ttcacgctgt ggaaaaaacc agttttacct ccacttgcaa ttcagttcct ttactccata
+     6301 taaatccaaa cggttgacat ttcctttcaa ctagttataa aatgcctctg gtaaaacaaa
+     6361 atatttaatt ccttgtcatt tttgtatctc tatgaaactt atcattttgc ctttcttctg
+     6421 aaaactatct tttaaaatgg caatctactt gtttccatgg cctattaact tttaagcctg
+     6481 tggaatgaaa aatacagaat tttcattctc aacaggaatg ttgagaacgc cgactaccca
+     6541 gattatggag atggaagggc gggggctggt gacccaactg gtttaatttg atgggattta
+     6601 aataaaaatg taatgccaag acttcataaa atttgcacat aagctaaagc aggaaactag
+     6661 aagtttacaa ataactgtaa accacagttt aaagtataaa ttacaaataa atttttctac
+     6721 aataaaaata aatcaaaagt caaaattaat ggtatgtatc aaagtcagct ttccaatatt
+     6781 tcaaaacttt tcagagacat taccttaaat aataaaactc aaacactaaa agagtgtata
+     6841 ttagagatgg atgtcatgtt tctcaaagtt cagggtttaa aaaaagcttt attccagaga
+     6901 caatattact taatctgagc tttatgccaa atgagaactg tatattgccc attacctttt
+     6961 aaacactgac tcaaaactac tttgtaatat ttaaaaccac tcttttcact ctcccaaaaa
+     7021 taacacccat tctgaccttc attaccatac attaattttc cttttcttga acctctgaca
+     7081 cagattctct gtttgaccaa actttagtca ggtttctgaa ccttctccta gactcgcctg
+     7141 tgcacttcct tgccaaactc agttttggca aagaactctc ctaagccagg ttagccagac
+     7201 tgtaccccca ccgcatatct gatcacactc aacacttgat cgatcaccct caatatctga
+     7261 tcaggtttct catcctccac caccctctag gtgatgtctg atcagcctag cctgtcttca
+     7321 gcaagaatcc tccttatcta tgatgtcttc tcttagtgat tgtccatcca ttgaccctac
+     7381 tccctgctcc ttggctataa atccccacct acccagctgt gtatgtggag ctaaggccaa
+     7441 tctctccccc agtgcaagac ctcattgctg tgctgttggt cgtgaatagt cttccttatc
+     7501 aagtttgaac aagtatcact gaataccatt tttccttaac aatgtgaata aatataaata
+     7561 caaaatatta tgtggagctt cttttgctta atacattttg gtggttttca gattattaaa
+     7621 aattatgaca tcatgcatgt atacattttg gaaagactaa atcaagctaa tgtatctact
+     7681 acctcatata cttccctttc cttttgcact gggaacattt aaattgtatt ctcttagcaa
+     7741 ttttcaagca tacaatacat tcttattacc tatattcaac atgctttaca atagatctga
+     7801 actaattgct tctatctaga tgaaatatta taatttttga ataacaatac tcatctcttc
+     7861 acctgaccct actagagggt agccacaatt ctactcc
+//
+LOCUS       MK011519                 625 bp    mRNA    linear   PRI 11-FEB-2019
+DEFINITION  Homo sapiens isolate P13-3 sex-determining region Y protein (SRY)
+            mRNA, complete cds.
+ACCESSION   MK011519
+VERSION     MK011519.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Functional characterization of SRY variants in Azoospermic patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2018) Department of Molecular Reproduction
+            Development and Genetics, Indian Institute of Science, near D Gate,
+            Bangalore, Karnataka 560012, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..625
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /isolate="P13-3"
+                     /isolation_source="azoospermic patient"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /sex="male"
+                     /tissue_type="testis"
+                     /country="India"
+                     /PCR_primers="fwd_name: sry2f, fwd_seq:
+                     cggatccttgacaatgcaatcatatgcttc, rev_name: sry2r, rev_seq:
+                     cctcgagtcctacagctttgtccag"
+     gene            1..625
+                     /gene="SRY"
+     CDS             11..625
+                     /gene="SRY"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="QBA69876.1"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQPGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYKYRPRRKAKMLPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+ORIGIN
+        1 atgcaatcat atgcaatcat atgcttctgc tatgttaagc gtattcaaca gcgatgatta
+       61 cagtccagct gtgcaagaga atattcccgc tctccggaga agctcttcct tcctttgcac
+      121 tgaaagctgt aactctaagt atcagtgtga aacgggagaa aacagtaaag gcaacgtcca
+      181 ggatagagtg aagcgaccca tgaacgcatt catcgtgtgg tctcgcgatc agaggcgcaa
+      241 gatggctcta gagaatccca gaatgcgaaa ctcagagatc agcaagcagc cgggatacca
+      301 gtggaaaatg cttactgaag ccgaaaaatg gccattcttc caggaggcac agaaattaca
+      361 ggccatgcac agagagaaat acccgaatta taagtatcga cctcgtcgga aggcgaagat
+      421 gctgccgaag aattgcagtt tgcttcccgc agatcccgct tcggtactct gcagcgaagt
+      481 gcaactggac aacaggttgt acagggatga ctgtacgaaa gccacacact caagaatgga
+      541 gcaccagcta ggccacttac cgcccatcaa cgcagccagc tcaccgcagc aacgggaccg
+      601 ctacagccac tggacaaagc tgtag
+//
+LOCUS       MK011518                 622 bp    mRNA    linear   PRI 11-FEB-2019
+DEFINITION  Homo sapiens isolate P12-1 sex-determining region Y protein (SRY)
+            mRNA, partial cds.
+ACCESSION   MK011518
+VERSION     MK011518.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 622)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Functional characterization of SRY variants in Azoospermic patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 622)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2018) Department of Molecular Reproduction
+            Development and Genetics, Indian Institute of Science, near D Gate,
+            Bangalore, Karnataka 560012, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..622
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /isolate="P12-1"
+                     /isolation_source="azoospermic patient"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /sex="male"
+                     /tissue_type="testis"
+                     /country="India"
+                     /PCR_primers="fwd_name: sry2f, fwd_seq:
+                     cggatccttgacaatgcaatcatatgcttc, rev_name: sry2r, rev_seq:
+                     cctcgagtcctacagctttgtccag"
+     gene            1..>622
+                     /gene="SRY"
+     CDS             11..>622
+                     /gene="SRY"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="QBA69875.1"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYKYRPRRKAKMLPKNCSLLPADPASVLRSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+ORIGIN
+        1 atgcaatcat atgcaatcat atgcttctgc tatgttaagc gtattcaaca gcgatgatta
+       61 cagtccagct gtgcaagaga atattcccgc tctccggaga agctcttcct tcctttgcac
+      121 tgaaagctgt aactctaagt atcagtgtga aacgggagaa aacagtaaag gcaacgtcca
+      181 ggatagagtg aagcgaccca tgaacgcatt catcgtgtgg tctcgcgatc agaggcgcaa
+      241 gatggctcta gagaatccca gaatgcgaaa ctcagagatc agcaagcagc tgggatacca
+      301 gtggaaaatg cttactgaag ccgaaaaatg gccattcttc caggaggcac agaaattaca
+      361 ggccatgcac agagagaaat acccgaatta taagtatcga cctcgtcgga aggcgaagat
+      421 gctgccgaag aattgcagtt tgcttcccgc agatcccgct tcggtactcc gcagcgaagt
+      481 gcaactggac aacaggttgt acagggatga ctgtacgaaa gccacacact caagaatgga
+      541 gcaccagcta ggccacttac cgcccatcaa cgcagccagc tcaccgcagc aacgggaccg
+      601 ctacagccac tggacaaagc tg
+//
+LOCUS       MK011517                 622 bp    mRNA    linear   PRI 11-FEB-2019
+DEFINITION  Homo sapiens isolate P4-8 sex-determining region Y protein (SRY)
+            mRNA, partial cds.
+ACCESSION   MK011517
+VERSION     MK011517.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 622)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Functional characterization of SRY variants in Azoospermic patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 622)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2018) Department of Molecular Reproduction
+            Development and Genetics, Indian Institute of Science, near D Gate,
+            Bangalore, Karnataka 560012, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..622
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /isolate="P4-8"
+                     /isolation_source="azoospermic patient"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /sex="male"
+                     /tissue_type="testis"
+                     /country="India"
+                     /PCR_primers="fwd_name: sry2f, fwd_seq:
+                     cggatccttgacaatgcaatcatatgcttc, rev_name: sry2r, rev_seq:
+                     cctcgagtcctacagctttgtccag"
+     gene            1..>622
+                     /gene="SRY"
+     CDS             11..>622
+                     /gene="SRY"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="QBA69874.1"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYRYRPRRKAKMLPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+ORIGIN
+        1 atgcaatcat atgcaatcat atgcttctgc tatgttaagc gtattcaaca gcgatgatta
+       61 cagtccagct gtgcaagaga atattcccgc tctccggaga agctcttcct tcctttgcac
+      121 tgaaagctgt aactctaagt atcagtgtga aacgggagaa aacagtaaag gcaacgtcca
+      181 ggatagagtg aagcgaccca tgaacgcatt catcgtgtgg tctcgcgatc agaggcgcaa
+      241 gatggctcta gagaatccca gaatgcgaaa ctcagagatc agcaagcagc tgggatacca
+      301 gtggaaaatg cttactgaag ccgaaaaatg gccattcttc caggaggcac agaaattaca
+      361 ggccatgcac agagagaaat acccgaatta taggtatcga cctcgtcgga aggcgaagat
+      421 gctgccgaag aattgcagtt tgcttcccgc agatcccgct tcggtactct gcagcgaagt
+      481 gcaactggac aacaggttgt acagggatga ctgtacgaaa gccacacact caagaatgga
+      541 gcaccagcta ggccacttac cgcccatcaa cgcagccagc tcaccgcagc aacgggaccg
+      601 ctacagccac tggacaaagc tg
+//
+LOCUS       MK011516                 625 bp    mRNA    linear   PRI 11-FEB-2019
+DEFINITION  Homo sapiens isolate P3-9 sex-determining region Y protein (SRY)
+            mRNA, complete cds.
+ACCESSION   MK011516
+VERSION     MK011516.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Functional characterization of SRY variants in Azoospermic patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2018) Department of Molecular Reproduction
+            Development and Genetics, Indian Institute of Science, near D Gate,
+            Bangalore, Karnataka 560012, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..625
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /isolate="P3-9"
+                     /isolation_source="azoospermic patient"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /sex="male"
+                     /tissue_type="testis"
+                     /country="India"
+                     /PCR_primers="fwd_name: sry2f, fwd_seq:
+                     cggatccttgacaatgcaatcatatgcttc, rev_name: sry2r, rev_seq:
+                     cctcgagtcctacagctttgtccag"
+     gene            1..625
+                     /gene="SRY"
+     CDS             11..625
+                     /gene="SRY"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="QBA69873.1"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYKYRPRRKAKMLPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+ORIGIN
+        1 atgcaatcat atgcaatcat atgcttctgc tatgttaagc gtattcaaca gcgatgatta
+       61 cagtccagct gtgcaagaga atattcccgc tctccggaga agctcttcct tcctttgcac
+      121 tgaaagctgt aactctaagt atcagtgtga aacgggagaa aacagtaaag gcaacgtcca
+      181 ggatagagtg aagcgaccca tgaacgcatt catcgtgtgg tctcgcgatc agaggcgcaa
+      241 gatggctcta gagaatccca gaatgcgaaa ctcagagatc agcaagcagc tgggatacca
+      301 gtggaaaatg cttactgaag ccgaaaaatg gccattcttc caggaggcac agaaattaca
+      361 ggccatgcac agagagaaat acccaaatta taagtatcga cctcgtcgga aggcgaagat
+      421 gctgccgaag aattgcagtt tgcttcccgc agatcccgct tcggtactct gcagcgaagt
+      481 gcaactggac aacaggttgt acagggatga ctgtacgaaa gccacacact caagaatgga
+      541 gcaccagcta ggccacttac cgcccatcaa cgcagccagc tcaccgcagc aacgggaccg
+      601 ctacagccac tggacaaagc tgtag
+//
+LOCUS       MK011515                 625 bp    mRNA    linear   PRI 11-FEB-2019
+DEFINITION  Homo sapiens isolate P3-6 sex-determining region Y protein (SRY)
+            mRNA, complete cds.
+ACCESSION   MK011515
+VERSION     MK011515.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Functional characterization of SRY variants in Azoospermic patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2018) Department of Molecular Reproduction
+            Development and Genetics, Indian Institute of Science, near D Gate,
+            Bangalore, Karnataka 560012, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..625
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /isolate="P3-6"
+                     /isolation_source="azoospermic patient"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /sex="male"
+                     /tissue_type="testis"
+                     /country="India"
+                     /PCR_primers="fwd_name: sry2f, fwd_seq:
+                     cggatccttgacaatgcaatcatatgcttc, rev_name: sry2r, rev_seq:
+                     cctcgagtcctacagctttgtccag"
+     gene            1..625
+                     /gene="SRY"
+     CDS             11..625
+                     /gene="SRY"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="QBA69872.1"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEAQKLQAMHREKYPNYKYRPRRKAKMPPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+ORIGIN
+        1 atgcaatcat atgcaatcat atgcttctgc tatgttaagc gtattcaaca gcgatgatta
+       61 cagtccagct gtgcaagaga atattcccgc tctccggaga agctcttcct tcctttgcac
+      121 tgaaagctgt aactctaagt atcagtgtga aacgggagaa aacagtaaag gcaacgtcca
+      181 ggatagagtg aagcgaccca tgaacgcatt catcgtgtgg tctcgcgatc agaggcgcaa
+      241 gatggctcta gagaatccca gaatgcgaaa ctcagagatc agcaagcagc tgggatacca
+      301 gtggaaaatg cttactgaag ccgaaaaatg gccattcttc caggaggcac agaaattaca
+      361 ggccatgcac agagagaaat acccgaatta taagtatcga cctcgtcgga aggcgaagat
+      421 gccgccgaag aattgcagtt tgcttcccgc agatcccgct tcggtactct gcagcgaagt
+      481 gcaactggac aacaggttgt acagggatga ctgtacgaaa gccacacact caagaatgga
+      541 gcaccagcta ggccacttac cgcccatcaa cgcagccagc tcaccgcagc aacgggaccg
+      601 ctacagccac tggacaaagc tgtag
+//
+LOCUS       MK011514                 625 bp    mRNA    linear   PRI 11-FEB-2019
+DEFINITION  Homo sapiens isolate P2-7 sex-determining region Y protein (SRY)
+            mRNA, complete cds.
+ACCESSION   MK011514
+VERSION     MK011514.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Functional characterization of SRY variants in Azoospermic patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 625)
+  AUTHORS   Pathak,D. and Dighe,R.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2018) Department of Molecular Reproduction
+            Development and Genetics, Indian Institute of Science, near D Gate,
+            Bangalore, Karnataka 560012, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..625
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /isolate="P2-7"
+                     /isolation_source="azoospermic patient"
+                     /db_xref="taxon:9606"
+                     /chromosome="Y"
+                     /sex="male"
+                     /tissue_type="testis"
+                     /country="India"
+                     /PCR_primers="fwd_name: sry2f, fwd_seq:
+                     cggatccttgacaatgcaatcatatgcttc, rev_name: sry2r, rev_seq:
+                     cctcgagtcctacagctttgtccag"
+     gene            1..625
+                     /gene="SRY"
+     CDS             11..625
+                     /gene="SRY"
+                     /codon_start=1
+                     /product="sex-determining region Y protein"
+                     /protein_id="QBA69871.1"
+                     /translation="MQSYASAMLSVFNSDDYSPAVQENIPALRRSSSFLCTESCNSKYQ
+                     CETGENSKGNVQDRVKRPMNAFIVWSRDQRRKMALENPRMRNSEISKQLGYQWKMLTEA
+                     EKWPFFQEARKLQAMHREKYPNYKYRPRRKAKMLPKNCSLLPADPASVLCSEVQLDNRL
+                     YRDDCTKATHSRMEHQLGHLPPINAASSPQQRDRYSHWTKL"
+ORIGIN
+        1 atgcaatcat atgcaatcat atgcttctgc tatgttaagc gtattcaaca gcgatgatta
+       61 cagtccagct gtgcaagaga atattcccgc tctccggaga agctcttcct tcctttgcac
+      121 tgaaagctgt aactctaagt atcagtgtga aacgggagaa aacagtaaag gcaacgtcca
+      181 ggatagagtg aagcgaccca tgaacgcatt catcgtgtgg tctcgcgatc agaggcgcaa
+      241 gatggctcta gagaatccca gaatgcgaaa ctcagagatc agcaagcagc tgggatacca
+      301 gtggaaaatg cttactgaag ccgaaaaatg gccattcttc caggaggcac ggaaattaca
+      361 ggccatgcac agagagaaat acccgaatta taagtatcga cctcgtcgga aggcgaagat
+      421 gctgccgaag aattgcagtt tgcttcccgc agatcccgct tcggtactct gcagcgaagt
+      481 gcaactggac aacaggttgt acagggatga ctgtacgaaa gccacacact caagaatgga
+      541 gcaccagcta ggccacttac cgcccatcaa cgcagccagc tcaccgcagc aacgggaccg
+      601 ctacagccac tggacaaagc tgtag
+//
