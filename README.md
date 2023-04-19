@@ -4,7 +4,7 @@
 # Python training
 ---------------------------
 
-<img src="images/SouthGreen.png" /> 
+<img src="SouthGreen.png" /> 
 
 ## Table of Contents
 
