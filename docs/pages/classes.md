@@ -1,51 +1,38 @@
 ## Un type spécifique : les classes/objets
 
-Les  _classes_  sont les principaux outils de la  _programmation orientée objet_ \.
+Les __classes__ sont les principaux outils de la __programmation orientée objet__.
 
-Une  _classe_  peut comporter :
+Une __classe__ peut comporter :  
+* Des variables, appelées __attributs__
+* Des fonctions, appelées __méthodes__
 
-Des variables\, appelées  _attributs_
+Une __instance__ d'une __classe__ est un __objet__  
 
-Des fonctions\, appelées  _méthodes_
+On peut appeler les attributs d'un objet en utilisant le `.` : 
+```python
+objet.attribut = 4	# objet.méthode()
+```
 
-Une  _instance_  d'une  _classe_  est un  _objet_
+```python
+chaine = "Bonjour"
+```
+la variable `chaine` est en réalité une instance de la classe `str`.
 
-On peut appeler les  _attributs_  d'un objet en utilisant le \. : _objet\.attribut = 4					objet\.méthode\(\)_
-
-_chaine_  =  _"Bonjour"_
-
-la variable  _chaine_  est en réalité une instance de la classe  _str\. _
-
-<span style="color:#FF0000"> __Tous les types en python sont des objets__ </span>
-
-<span style="color:#000000">\# création de l’instance ‘</span>  __une\_cerise’ de la classe Cerise\(\)__
-
-<span style="color:#000000">une\_cerise = Cerise\(\) </span>
-
-<span style="color:#000000">\# exemple d’attributs</span>
-
-__une\_cerise\.couleur = rouge__
-
-__une\_cerise\.taille = 2__
-
-__\# exemple d’une methode__
-
-__une\_cerise\.enlever\_noyau\(\)__
+!!! Important
+    Tous les types en python sont des objets
 
 ## Examiner les objets / Obtenir de l’aide sur ...
 
-_help\(obj\)_  : Affiche la documentation\. Fonctionne sur les modules\, les objets et les fonctions\.Raccourci sur IPython :  _?obj_
+`help(obj)` : Affiche la documentation. Fonctionne sur les modules, les objets et les fonctions.  
+Raccourci sur IPython : `?obj`  
+ 
+`dir(obj)` : retourne la liste des attributs et méthodes de la classe de l’objet 
 
-_dir\(obj\) _ : retourne la liste des attributs et méthodes de la classe de l’objet
-
-<span style="color:#000000">>>> dir\(""\)</span>
-
-<span style="color:#000000">\[ 'capitalize'\, 'casefold'\, 'center'\, 'count'\, 'encode'\, 'endswith'\, 'expandtabs'\, 'find'\, 'format'\,</span>
-
-<span style="color:#000000"> 'format\_map'\, 'index'\, 'isalnum'\, 'isalpha'\, 'isascii'\, 'isdecimal'\, 'isdigit'\, 'isidentifier'\, 'islower'\,</span>
-
-<span style="color:#000000"> 'isnumeric'\, 'isprintable'\, 'isspace'\, 'istitle'\, 'isupper'\, 'join'\, 'ljust'\, 'lower'\, 'lstrip'\, 'maketrans'\,</span>
-
-<span style="color:#000000"> 'partition'\, 'replace'\, 'rfind'\, 'rindex'\, 'rjust'\, 'rpartition'\, 'rsplit'\, 'rstrip'\, 'split'\, 'splitlines'\, 'startswith'\,</span>
-
-<span style="color:#000000"> 'strip'\, 'swapcase'\, 'title'\, 'translate'\, 'upper'\, 'zfill'\]</span>
+```python
+>>> dir("")
+[ 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format',
+ 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower',
+ 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans',
+ 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith',
+ 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+```

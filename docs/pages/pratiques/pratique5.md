@@ -1,4 +1,5 @@
-## le passage de paramètre
+
+# Pratique 5 : le passage de paramètre
 
 * Reprendre le programme `exo4_a.py` et créer un nouveau programme python `exo5_arg.py` qui permettra de donner la séquence nucléique étudiée en argument du programme.
 

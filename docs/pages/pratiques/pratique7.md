@@ -1,11 +1,12 @@
+## Pratique 7
 
-## Exercice A
+### Exercice A
 
 Créer un programme python `exo7_a.py` qui créer un dictionnaire associant à chaque base de l'ADN la chaine "purinique" (C et G) ou "pyrimidinique" (A et T) selon la base :
 puis qui demande à l'utilisateur (fonction `input()`) d'entrer une base, 
 et enfin qui affiche si la base entrée par l'utilisateur est purinique ou pyrimidique.
 
-## Exercice B
+### Exercice B
 
 En utilisant un dictionnaire et la fonction `in` (clef in dictionnaire), créer un programme python `exo7_b.py` qui stocke dans un dictionnaire le nombre d’occurrences de chaque acide aminé de la séquence `AGWPSGGASAGLAILWGASAIMPGALW`, puis afficher ce dictionnaire.  
     
@@ -15,7 +16,7 @@ Votre programme doit afficher :
 {'P': 2, 'I': 2, 'W': 3, 'G': 6, 'L': 3, 'A': 7, 'M': 1, 'S': 3}
 ```
 
-## Exercice C
+### Exercice C
 
 Voila un dictionnaire faisant correspondre à chaque espèce la longueur de son génome : 
 
@@ -25,7 +26,7 @@ dico_espece = {'Escherichia coli':3.6,'Homo sapiens':3200,'Saccharomyces cerevis
 
 Créer un programme python `exo7_c.py` dans lequel vous créez ce dictionnaire et qui permet d'afficher le nom de l'organisme possédant le plus grand génome.
 
-## Exercice D
+### Exercice D
 
 Le fichier [sequences_especes.tsv](../../data/files/sequences_especes.tsv) est un fichier tabulé (2 colonnes séparées par des tabulations) contenant un identifiant de séquence dans la première colonne, et l’espèce associée dans la secondes colonne. 
 ```

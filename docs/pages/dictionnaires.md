@@ -1,29 +1,60 @@
-#### Dictionnaires
+Un __dictionnaire__ est une structure de données qui contient une collection __non ordonnée__ (pas d'indice) de __couples clé/valeur__ (pouvant être de types différents)
 
-Un  _dictionnaire_  est une structure de données qui contient une  _collection non ordonnée_  \(pas d'indice\) de  _couples clé/valeur_  \(pouvant être de types différents\)
+## Dictionnaires
 
-_Déclaration_  _dico = \{cle1: valeur1\, cle2: valeur2\, …\}_  _dico\_vide = \{\}_
+__Déclarer__ un dictionnaire
 
-On  _accède aux valeurs_  d'un dictionnaire par ses clés _dico\[cle\]_
+```python
+dico = {cle1: valeur1, cle2: valeur2, …}
+dico_vide = {}
+```
 
-Liste\* des  _clés_  d'un dictionnaire :  _dico\.keys\(\)_
+On __accède aux valeurs__ d'un dictionnaire par ses clés
 
-Liste\* des  _valeurs_  d'un dictionnaire :  _dico\.values\(\)_
+```python
+dico[cle]
+```
 
-Liste\* des  _couples clé/valeur_  d'un dictionnaire :  _dico\.items\(\)_
+Liste des __clés__ d'un dictionnaire : `dico.keys()`  
+Liste des __valeurs__ d'un dictionnaire : `dico.values()`  
+Liste des __couples clé/valeur__ d'un dictionnaire : `dico.items()`  
 
-_for cle\, valeur in dico\.items\(\):_  _	print\(f"La clé \{cle\} contient \{valeur\}"\)_
+!!! note
+    Les liste retourné se comportent presque comme des listes mais n'en sont pas tout à fait. On peut obtenir une vraie liste en faisant : 
+    `list(dico.keys())`
 
-<span style="color:#000000">\* se comportent presque comme des listes mais n'en sont pas tout à fait\. On peut obtenir une vraie liste en faisant : </span>
+```python
+for cle, valeur in dico.items():
+	print(f"La clé {cle} contient {valeur}")
+```
 
-_list\(dico\.keys\(\)\)_
+__Longueur__ (nb. de couples) d'un dictionnaire
 
-_Longueur_  \(nb\. de couples\) d'un dictionnaire _len\(dico\)_ note :  _len_  fonctionne sur beaucoup de types qui ont une longueur :  _str_ \, _ list_ \, _ tuple_ \, _ dict_ \, _ set_ \, _ range_ …
+```python
+len(dico)
+```
 
-<span style="color:#4F81BD"> __Tester l'existence__ </span>  <span style="color:#000000"> d'une clé</span>  <span style="color:#9BBB59">if cle in dico		</span>  <span style="color:#000000">retourne </span>  <span style="color:#93C47D"> __True__ </span>  <span style="color:#000000"> si la clé existe</span>
+!!! note 
+    `len` fonctionne sur beaucoup de types qui ont une longueur : `str`, `list`, `tuple`, `dict`, `set`, `range`… 
 
-<span style="color:#4F81BD"> __Modifier une valeur__ </span>  <span style="color:#000000"> ou </span>  <span style="color:#4F81BD"> __Ajouter un couple__ </span>  <span style="color:#000000">\(selon si la clé existe ou pas\)</span>  <span style="color:#9BBB59">dico\[cle\] = valeur</span>
+__Tester l'existence__ d'une clé
+```python
+if cle in dico		#retourne True si la clé existe
+```
 
-<span style="color:#4F81BD"> __Supprimer __ </span>  <span style="color:#000000">un couple</span>  <span style="color:#9BBB59">del dico\[cle\]</span>
+__Modifier une valeur__ ou __Ajouter un couple__ (selon si la clé existe ou pas)
+```python
+dico[cle] = valeur
+```
 
-<span style="color:#4F81BD"> __Vider __ </span>  <span style="color:#000000">un dictionnaire</span>  <span style="color:#9BBB59">dico\.clear\(\)</span>
+__Supprimer__ un couple
+```python
+del dico[cle]
+```
+
+__Vider__ un dictionnaire
+```python
+dico.clear()
+```
+
+--8<-- "pages/pratiques/pratique7.md"
