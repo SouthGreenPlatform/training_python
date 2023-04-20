@@ -51,7 +51,7 @@ L'object `Seq` se comporte comme une __chaîne de caractères__  (= liste non mo
     if ma_sequence.endswith("TAA")
     ```
 
-* Accès aux bases avec [] (index à partir de 0 !)
+* Accès aux bases avec [ ] (index à partir de 0 !)
     ```python
     print(ma_sequence[0])
     ```
@@ -64,7 +64,7 @@ L'object `Seq` se comporte comme une __chaîne de caractères__  (= liste non mo
 * Position d'une sous-chaîne
     ```python
     pos = ma_sequence.find("ATG")
-    ````
+    ```
 
 * Nombre d'occurrences d'un élément (sans superpositions)
     ```python
