@@ -3,6 +3,7 @@
 Les __classes__ sont les principaux outils de la __programmation orientée objet__.
 
 Une __classe__ peut comporter :  
+
 * Des variables, appelées __attributs__
 * Des fonctions, appelées __méthodes__
 
@@ -10,7 +11,11 @@ Une __instance__ d'une __classe__ est un __objet__
 
 On peut appeler les attributs d'un objet en utilisant le `.` : 
 ```python
-objet.attribut = 4	# objet.méthode()
+objet.attribut = 4	
+```
+
+```python
+objet.méthode()
 ```
 
 ```python
