@@ -144,7 +144,8 @@ Les fonctions de `SeqIO` retournent des objets `SeqRecord`
 
     ```python
     from Bio import SeqIO
-    for mon_record in SeqIO
+    records = SeqIO.parse(chemin/objet fichier, format)
+    for mon_record in records:
         print(mon_record.id)
     ```
 
