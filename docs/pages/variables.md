@@ -2,48 +2,52 @@
 
 ## typage
 
-_Variable_  : zone de mémoire dans laquelle on stocke une valeurUne variable a un nom \(ensemble de lettres\, chiffres et \_\)
+__Variable__ : zone de mémoire dans laquelle on stocke une valeurUne variable a un nom (ensemble de lettres, chiffres et _)
 
-On déclare une variable en initialisant :  _x = 2_ On peut changer sa valeur avec une affectation :  _x = x \+ 3_
+On déclare une variable en initialisant : `x = 2`  
+On peut changer sa valeur avec une affectation : `x = x + 3`
 
-Python donne automatiquement un type a chaque variable en fonction de sa nature
+Python donne automatiquement un type a chaque variable en fonction de sa nature : 
 
-_w = 1_ 				⇒ type  _int_  \(nombre entier\) integer
-
-_x = 3\.2_ 			⇒ type  _float_  \(nombre flottant\) float
-
-_y = "hello"_ 	⇒ type  _str_  \(chaîne de caractères\)
-
-_z = True_ 			⇒ type  _bool_  \(booléen\) boolean
+* `w = 1`				⇒ type `int` (nombre entier) integer
+* `x = 3.2`			    ⇒ type `float` (nombre flottant) float
+* `y = "hello"`	        ⇒ type `str` (chaîne de caractères)
+* `z = True`			⇒ type `bool` (booléen) boolean
 
 ## Manipulation
 
-Sur les nombres : opérateurs mathématiques de base _\+	\-	\*	/	\*\*_  \(puissance\)		 _%_  \(modulo\)
+* Sur les nombres : opérateurs mathématiques de base  
 
-Sur les chaînes de caractères : _\+_ 	concaténation _\*_ 	répétition
+    * `+`
+    * `-`	
+    * `*`	
+    * `/`	
+    * `**` (puissance)		
+    * `%` (modulo)
 
-_type\(ma\_variable\)_  donne le type de la variable
+* Sur les chaînes de caractères :
+    * `+`	concaténation
+    * `*`	répétition
 
-__Pas de conversion automatique \! \(str \+ int ⇒ erreur\) ex :__  _ "Bonjour" \+ 10_
+`type(ma_variable)` donne le type de la variable
 
-Solution:
+!!! warning
+    Pas de conversion automatique ! (str + int ⇒ erreur)   
+    ex : `"Bonjour" + 10`=> erreur  
+    Solution:   
+        => Conversion : `int()`, `float()`, `str()`
 
-Conversion :  _int\(\)_ \,  _float\(\)_ \,  _str\(\)_
 
 ## Nommage
 
-Un nom de variable ne peut pas commencer par un chiffre\.
+* Un nom de variable ne peut pas commencer par un chiffre. 
+Éviter de commencer avec un `_`
 
-Éviter de commencer avec un \_
+* Les noms de variables sont __sensibles à la case__ (test ≠ TEST)
+Utiliser la convention snake_case (sauf noms de classes)
+`ma_longue_variable = 3`
 
-Les noms de variables sont  _sensibles à la case_  \(test ≠ TEST\)
+* Ne pas utiliser un __mot réservé__ comme nom (`print`, `range`, `from`, `for`, …)
 
-Utiliser la convention snake\_case \(sauf noms de classes\)
-
-_ma\_longue\_variable = 3_
-
-<span style="color:#000000">Ne pas utiliser un </span>  <span style="color:#4F81BD"> __mot réservé__ </span>  <span style="color:#000000"> comme nom \(</span>  <span style="color:#9BBB59">print</span>  <span style="color:#000000">\, </span>  <span style="color:#93C47D">range</span>  <span style="color:#000000">\, </span>  <span style="color:#9BBB59">from</span>  <span style="color:#000000">\, </span>  <span style="color:#9BBB59">for</span>  <span style="color:#000000">\, …\)</span>
-
-<span style="color:#000000"> __Donnez des noms explicites à vos variables \!__ </span>
-
-<span style="color:#9BBB59">longueur\_seq</span>  <span style="color:#000000"> plutôt que </span>  <span style="color:#9BBB59">l</span>
+* __Donnez des noms explicites à vos variables !__  
+`longueur_seq` plutôt que `l`

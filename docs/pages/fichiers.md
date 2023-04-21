@@ -64,5 +64,39 @@ for ligne in fd:
 
 La boucle utilise le curseur du fichier de la même manière que les autres fonctions !
 
-!!! Attention 
+!!! Warning 
     Les lignes lues par `readline()`, `readlines()` et la boucle `for` contiennent les sauts de ligne (`\n`). 
+
+## Ecriture
+
+__Écriture__ dans un fichier (fichier ouvert en mode `w`, `a` ou `x`)
+
+* Écrire une chaîne de caractères : 
+
+    ```python 
+    fd.write(chaine)
+    ```
+
+    !!! warning
+        N'ajoute pas automatiquement le saut de ligne ("\n")
+
+* Écrire plusieurs lignes (liste de chaînes de caractère) : 
+
+    ```python
+    fd.writelines(liste)
+    ```
+
+    !!! warning
+        N'ajoute pas non plus les sauts de ligne ("\n")
+
+## With
+
+Ouverture du fichier avec `with` : __fermeture automatique__  
+
+![](img/fichiers_with.png){: style="height:250px;width:500px"}
+
+Fichier fermé automatiquement :  
+
+* A la fin du bloc
+* En cas d'erreur dans le bloc
+

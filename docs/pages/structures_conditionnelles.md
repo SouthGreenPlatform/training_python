@@ -2,76 +2,81 @@
 
 Permet d'exécuter du code différent en fonction du résultat d'une ou plusieurs conditions/tests
 
-_if moyenne >= 10:_  _	mention = "passable"_  _else:_  _	mention = "ajourné"_
+![](img/structures_conditionnelles.png){: style="height:130px;width:400px"}
 
 ## Indentation en Python
 
-<span style="color:#000000">Contrairement à la plupart des autres langages\, </span>  <span style="color:#000000">les</span>  _ Blocs de code_  \(conditions\, boucles\, fonctions…\) définis par l' _indentation_
+Contrairement à la plupart des autres langages, les __Blocs de code__ (conditions, boucles, fonctions…) sont définis par __l'indentation__
 
-<span style="color:#000000">":" crée un nouveau bloc</span>
+![](img/indentation.png){: style="height:150px;width:600px"}
 
-_if variable == 1:_  _	print\("La condition est vraie \!"\)_  _	x = 3_  _	\# du code\.\.\.\._  _print\("Ceci sera tout le temps affiché"\)_
+Convention : Indenter avec __4 espaces__ (pas de tabulations)
 
-<span style="color:#000000">Plus d'indentation = fin du bloc de la condition</span>
-
-__Convention : Indenter avec __  _4 espaces_  __ \(pas de tabulations\)__
 
 ## Structures conditionnelles
 
-_if moyenne >= 12:_  _	mention = "assez bien"_
+![](img/if_elsif.png){: style="height:220px;width:600px"}
 
-_elif moyenne >= 10:_
+### Tests
 
-_mention = "passable"_  _else:_  _	mention = "ajourné"_
+#### Opérateurs de comparaison
 
-## Structures conditionnelles > Tests
+* `==`		égal à
+* `!=`		différent de
+* `>`		strictement supérieur à
+* `>=`		supérieur ou égal à
+* `<`		strictement inférieur à
+* `<=`		inférieur ou égal à
+* `is`		est le même objet que (utiliser pour vérification de type)
 
-_Opérateurs de comparaison_
+```python
+x = 3
+if type(x) is int:
+```
 
-_==_ 		égal à _\!=_ 		différent de _>_ 		strictement supérieur à _>=_ 		supérieur ou égal à _<_ 		strictement inférieur à _<=_ 		inférieur ou égal à
+!!! warning
+    Ne pas confondre :  
+    `=`	opérateur d'assignation  
+    et  
+    `==`	opérateur de comparaison
 
-_is_ 		est le même objet que \(utiliser pour vérification de type\)
+#### Opérateurs logiques
 
-_x = 3_  _if type\(x\) is int:_
+Les opérateurs de comparaisons renvoient un  __booléen__ (`bool`)
 
-<span style="color:#FFFFFF"> __Attention \!__ </span>
+On peut combiner plusieurs conditions avec les  __opérateurs logiques__
 
-<span style="color:#FFFFFF">Ne pas confondre :</span>
+* `and`	ET
+* `or`	OU (inclusif)
+* `not`	NON
 
-_=_  <span style="color:#FFFFFF">	opérateur d'assignation</span>
 
-<span style="color:#FFFFFF">et</span>
 
-_==_  <span style="color:#FFFFFF">	opérateur de comparaison</span>
+![](img/Python2023-large90.png){: style="height:200px;width:200px"}
 
-## Structures conditionnelles > Opérateurs logiques
+```python
+age = 32
+if age >= 4 and age <= 99:
+	print("Vous pouvez jouer aux legos")
+```
 
-Les opérateurs de comparaisons renvoient un  _booléen_  \(bool\)
-
-On peut combiner plusieurs conditions avec les  _opérateurs logiques_
-
-_and_  _	_  <span style="color:#000000">ET</span>  _or_  _		_  <span style="color:#000000">OU \(inclusif\)</span>  _not_  _	_  <span style="color:#000000">NON</span>
-
-| True and True | True |
+| Test | Result |
 | :-: | :-: |
+| True and True | True |
 | True and False | False |
 | False and True | False |
-| False and False | False |
+| False and False | False 
 
-![](img/Python2023-large90.png)
-
-| True or True | True |
+| Test | Result |
 | :-: | :-: |
+| True or True | True |
 | True or False | True |
 | False or True | True |
 | False or False | False |
 
-_age = 32_
-
-_if age >= 4 and age <= 99:_
-
-_	print\("Vous pouvez jouer aux legos"\)_
-
-| not True | False |
+| Test | Result |
 | :-: | :-: |
+| not True | False |
 | not False | True |
+
+--8<-- "pages/pratiques/pratique2.md"

@@ -4,39 +4,38 @@
 
 ## Pourquoi programmer en Python ?
 
-### Qu'est\-ce qu'un programme ou un script ?
+### Qu'est-ce qu'un programme ou un script ?
 
-* Une <span style="color:#3C78D8"> </span>  _suite d'instruction_  que l'ordinateur doit exécuter
+* Une __suite d'instruction__  que l'ordinateur doit exécuter
 
 * => programmer = décrire à l'ordinateur très clairement tout ce qu'il doit faire
 
-* Un programme est décrit par un  _algorithme_  \(= suite d'instructions\)
+* Un programme est décrit par un  __algorithme__ (= suite d'instructions)
 
 ### Pourquoi apprendre à programmer ?
 
-* Faire travailler l'ordinateur à notre place \(calculs\)
+* Faire travailler l'ordinateur à notre place (calculs)
 
-* _Automatiser / enchaîner_  des traitements \(proposés par des outils existant\)
+* __Automatiser / enchaîner__  des traitements (proposés par des outils existant)
 
 * Effectuer des tâches qu'aucun outils existant ne propose
 
 ### Pourquoi en Python ?
 
-* Un des langages le plus utilisés en  _bioinformatique_  car adéquat pour réaliser des scripts\, portables sur Unix/Mac et sur Windows
+* Un des langages le plus utilisés en  __bioinformatique__  car adéquat pour réaliser des scripts, portables sur Unix/Mac et sur Windows
 
 * Syntaxe du langage incite à la clarté
 
-* Langage interprété = programme traduit au fur et à mesure par un  _interpréteur_  afin d’être exécutée par l’ordinateur
+* Langage interprété = programme traduit au fur et à mesure par un __interpréteur__  afin d’être exécutée par l’ordinateur
 
-* Langage orienté objet\, moderne\, haut niveau
-
-* =>  _Biopython_  : ensemble de fonctions et procédures conçues pour le     traitement et l'analyse de données biologiques
+* Langage orienté objet, moderne, haut niveau  
+  =>  __Biopython__  : ensemble de fonctions et procédures conçues pour le traitement et l'analyse de données biologiques
 
 Référence : http://python\.developpez\.com/tutoriels/cours\-python\-uni\-paris7/
 
 ## Premiers pas
 
-* _Mode interactif_  \(REPL\)  
+### Mode interactif  (REPL)  
 Exécution d’instructions simples, retour en direct  
 Le plus souvent utilisé :  <span style="color:green">__ipython__ </span>  \(interpréteur amélioré\)
 
@@ -44,62 +43,62 @@ Le plus souvent utilisé :  <span style="color:green">__ipython__ </span>  \(int
 <span style="color:#000000">Sortir de l'interpréteur avec la commande quit\(\) / exit\(\) ou Ctrl\+d</span>
 
 
-* _Mode programmation / script_   
-<span style="color:#000000">exécution d'une suite d'instructions plus complexes écrites à l'avance</span>  
-Écrire les instructions dans un fichier  _script\_python_  _\.py_  <span style="color:#006B6B"> </span> \( _\#_  <span style="color:#006B6B"> </span> pour les commentaires\)  
-Exécuter le script :
-  * Soit avec la commande :  _python3 script\_python\.py_
-  * Soit en rendant le fichier  _script\_python\.py_  <span style="color:#006B6B"> </span> «  exécutable  » \(qui doit l'interpréter\):
-    * Ajouter en 1er ligne du fichier _\#\!/usr/bin/env python3_
-    * Changer les droits du fichier _chmod \+x script\_python\.py_
-    * Lancer la commande : <span style="color:#B84747"> </span>  _\./script\_python\.py_
+### Mode programmation / script  
+exécution d'une suite d'instructions plus complexes écrites à l'avance 
+
+* Écrire les instructions dans un fichier  `script_python.py` ( `#` pour les commentaires)  
+* Exécuter le script :
+    * Soit avec la commande :  `python3 script_python.py`
+    * Soit en rendant le fichier `script_python.py` «  __exécutable__  » (qui doit l'interpréter):  
+        * Ajouter en 1er ligne du fichier 
+        ```python
+        #!/usr/bin/env python3
+        ```
+        * Changer les droits du fichier 
+        ```python
+        chmod +x script_python.py
+        ```
+        * Lancer la commande 
+        ```python
+        ./script_python.py
+        ```
+
 
 ## Utilisation de nano pour éditer des fichiers
 
-nano :  _éditeur de fichier_  simple en ligne de commande\.Installé sur toutes les machines Linux\.
+nano :  __éditeur de fichier__  simple en ligne de commande. Installé sur toutes les machines Linux.
 
-nano unfichier\.py pour  _éditer un fichier existant_  ou  _créer un nouveau fichier_
+`nano unfichier.py` pour  __éditer un fichier existant__  ou  __créer un nouveau fichier__
 
-_Sauvegarder et quitter_  : CTRL\-X \-> O \-> Entrée
+__Sauvegarder et quitter__  : CTRL\-X \-> O \-> Entrée  
 
-\(les raccourcis sont affichés en bas de l'écran\)
+!!! note
+    Dans `nano` les raccourcis sont affichés en bas de l'écran
 
-Chez vous\, vous voudrez probablement utiliser un éditeur plus complet \(vim\, VS Code\, Sublime Text…\) ou un IDE \( __P__  __yCharm__ \, Spyder\)
+Chez vous, vous voudrez probablement utiliser un éditeur plus complet (`vim`, `VS Code`, `Sublime Text`, …) ou un IDE ( __`PyCharm`__, `Spyder`).
 
 ## PyCharm
 
 ### Avantage de PyCharm pour éditer des fichiers python
 
-PyCharm :  _environnement de développement intégré \(IDE\)_  Utilisable sur Windows\, Linux et Mac
+* __environnement de développement intégré (IDE)__  Utilisable sur Windows, Linux et Mac
 
-Utilise  _l'auto complétion du code_
+* Utilise  __l'auto complétion du code__
 
-_gère l’indentation du code_
+* __gère l’indentation du code__
 
-Affiche des messages si erreur de syntaxe\, propose les importations de librairie\, analyse en temps réel du code\, …
+* Affiche des messages si erreur de syntaxe, propose les importations de librairie, analyse en temps réel du code, …
 
 ### Utiliser Python avec PyCharm
 
-Télécharger PyCharm :  _[https://www\.jetbrains\.com/fr\-fr/pycharm/download/\#section=linux](https://www.jetbrains.com/fr-fr/pycharm/download/#section=linux)_
+* Télécharger PyCharm :  _[https://www\.jetbrains\.com/fr\-fr/pycharm/download/\#section=linux](https://www.jetbrains.com/fr-fr/pycharm/download/#section=linux)_
 
-<span style="color:#000000">Créer un nouveau projet \(ex : formation\_python\_2023 \)</span>
+* Créer un nouveau projet (ex : formation_python)
 
-![](img/Python2023-large83.png)
+![](img/pycharm1.png){: style="height:500px;width:600px"}
+![](img/pycharm2.png){: style="height:500px;width:600px"}
 
-![](img/Python2023-large84.png)
+* __Mode interactif__  (REPL)
+Exécution d’instructions simples, retour en direct
 
-![](img/Python2023-large85.png)
-
-![](img/Python2023-large86.png)
-
-![](img/Python2023-large87.png)
-
-_Mode interactif_  \(REPL\)Exécution d’instructions simples\, retour en direct
-
-Pour ce cours : utiliser  _PyCharm_  _ _
-
-_  _  <span style="color:#000000">\(interpréteur amélioré\)</span>
-
-![](img/Python2023-large88.png)
-
-![](img/Python2023-large89.png)
+![](img/pycharm3.png){: style="height:400px;width:600px"}

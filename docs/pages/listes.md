@@ -1,72 +1,106 @@
+__Liste__ : structure de données contenant une série de valeurs ordonnées (possiblement de types différents)
 
-## Listes
+```python
+ma_liste = [1, "deux", 3.0]
+ma_liste_vide = []
+```
 
-_Liste_  : structure de données contenant une série de valeurs ordonnées \(possiblement de types différents\)
+* Appeler les éléments d'une liste :  
 
-_ma\_liste = \[1\, "deux"\, 3\.0\]_
+`ma_liste[0]`	premier élément de la liste
+`ma_liste[1]`	second élément de la liste
 
-_ma\_liste\_vide = \[\]_
+!!! warning
+    Les index commencent à 0 ! 
 
-<span style="color:#000000">Appeler les éléments d'une liste</span>
+!!! note
+    `i`,`j`= positions dans la liste
+    `x`= valeur
 
-_ma\_liste\[0\]_  <span style="color:#000000">	premier élément de la liste</span>  _ma\_liste\[1\]_  <span style="color:#000000">	second élément de la liste</span>
+* Récupérer la longueur d'une liste :
+```python
+len(ma_liste)
+```
 
-<span style="color:#FF0000"> __Attention : Les index commencent à 0 \! __ </span>
+* Prendre une tranche d'une liste :
+```python 
+ma_liste[i:j]	# ⇒ éléments de l'indice i à l'indice j-1
+ma_liste[i:]	# ⇒ tous les éléments à partir de l'indice i
+ma_liste[:j]	# ⇒ tous les éléments jusqu'à l'indice j-1
+ma_liste[:-1]	# ⇒ tous les éléments sauf le dernier
+ma_liste[-1]	# ⇒ dernier élément
+```
 
-#### Listes
+* Concaténer des listes
+```python
+liste_1 + liste_2
+```
 
-<span style="color:#000000">i\,j = positions dans la liste		x = valeur</span>
+* Ajouter un élément à la fin d'une liste
+```python
+ma_liste.append(x)
+```
 
-__Récupérer la longueur d'une liste __ :
+* Remplacer la valeur d'un élément à une position déterminée
+```python
+ma_liste[i] = x
+```
 
-_len\(ma\_liste\)_
+* Insérer un élément à une position déterminée
+```python
+ma_liste.insert(i, x)
+```
 
-Prendre une tranche d'une liste :
+* Trier une liste en place
+```python
+ma_liste.sort()
+```
 
-_ma\_liste\[i:j\]_ 	⇒ éléments de l'indice i à l'indice j\-1
+* Créer une copie triée d'une liste
+```python
+liste_triee = sorted(ma_liste)
+```
 
-_ma\_liste\[i:\]_ 	⇒ tous les éléments à partir de l'indice i
+* Inverser une liste
+```python
+ma_liste.reverse()
+```
 
-_ma\_liste\[:j\]_ 	⇒ tous les éléments jusqu'à l'indice j\-1
+* Supprimer un élément d'une liste
+```python
+del ma_liste[i]
+ma_liste.remove(x)	# ne retire que la première occurrence de x
+```
+* Compter le nombre d'occurrences de x dans une liste
+```python
+ma_liste.count(x)
+```
 
-_ma\_liste\[:\-1\]_ 	⇒ tous les éléments sauf le dernier
+* Tester si un élément appartient ou pas à une liste
+```python
+if x in ma_liste:
+if x not in ma_liste:
+```
 
-_ma\_liste\[\-1\]_ 	⇒ dernier élément
+!!! warning
+    Toutes les recherches par valeur dans la liste sont en O(n)  
+    = de plus en plus lentes au fur et à mesure que la taille de la liste augmente
 
-Concaténer des listes
+Une chaîne de caractères est une __liste non modifiable__
+```python
+sequence = "ATGGCAT"
+sequence[2] # => "G"
+```
 
-_liste\_1 \+ liste\_2_
+On peut créer une liste modifiable à partir de la chaîne
+```python
+liste_sequence = list(sequence)
+```
 
-<span style="color:#000000">i\,j = positions dans la liste		x = valeur</span>
-
-Ajouter un élément à la fin d'une liste _ma\_liste\.append\(x\)_
-
-Remplacer la valeur d'un élément à une position déterminée _ma\_liste\[i\] = x_
-
-Insérer un élément à une position déterminée _ma\_liste\.insert\(i\, x\)_
-
-<span style="color:#000000">i\,j = positions dans la liste		x = valeur</span>
-
-Trier une liste en place	 _ma\_liste\.sort\(\)_
-
-Créer une copie triée d'une liste	 _liste\_triee = sorted\(ma\_liste\)_
-
-Inverser une liste	 _ma\_liste\.reverse\(\)_
-
-Supprimer un élément d'une liste	 _del ma\_liste\[i\]_  _	ma\_liste\.remove\(x\)_ 	\(ne retire que la première occurrence de x\)
-
-Compter le nombre d'occurrences de x dans une liste	 _ma\_liste\.count\(x\)_
-
-<span style="color:#000000">i\,j = positions dans la liste		x = valeur</span>
-
-Tester si un élément appartient ou pas à une liste _if x in ma\_liste:_  _if x not in ma\_liste:_
-
-_Attention_  : toutes les recherches par valeur dans la listesont en O\(n\)= de  _plus en plus lentes_  au fur et à mesure que la taille de la liste augmente
-
-Une chaîne de caractères est une  _liste non modifiable_  _sequence = "ATGGCAT"_  _sequence\[2\]_ 				=> "G"
-
-On peut créer une liste modifiable à partir de la chaîne _liste\_sequence = list\(sequence\)_
-
-_Listes de listes_
-
-_liste = \[\[1\, 2\, 3\]\, \[4\, 5\, 6\]\]_  _liste\[0\]_ 				=> \[1\, 2\, 3\] _liste\[0\]\[0\]_ 		=> 1 _liste\[1\]\[2\]_ 		=> 6
+__Listes de listes__
+```python
+liste = [[1, 2, 3], [4, 5, 6]]
+liste[0]		# => [1, 2, 3]
+liste[0][0]		# => 1
+liste[1][2]		# => 6
+```
